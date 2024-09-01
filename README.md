@@ -1,11 +1,18 @@
 # 5311-Sorting-Algorithms
-<br/>
-Selection, Insertion, and Bubble are highlighted in this repository. This repository has both code and benchmarks that can be ran on your computer.
-<br/>
-**Setup** <br/>
-Install Python 3.12.0
-<br/>
-In your terminal run these two commands to install necessary dependencies:
-<br/>
-`pip install timeit`
-`pip install matplotlib`
+
+This repository highlights three classic sorting algorithms: **Selection Sort**, **Insertion Sort**, and **Bubble Sort**. It includes both the implementation code for these algorithms and benchmark scripts to measure their performance on different input sizes.
+
+## **Setup**
+
+### 1. Install Python
+Ensure that Python 3.12.0 (or later) is installed on your machine. You can download it from the official [Python website](https://www.python.org/downloads/).
+
+### 2. Set Up Your Environment
+To install the necessary dependencies, follow these steps:
+
+1. **Open your terminal**.
+
+2. **Install the required Python packages** by running the following commands:
+   ```sh
+   pip install timeit
+   pip install matplotlib
