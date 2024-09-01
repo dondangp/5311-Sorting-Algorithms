@@ -7,5 +7,5 @@ Install Python 3.12.0
 <br/>
 In your terminal run these two commands to install necessary dependencies:
 <br/>
-_pip install timeit_
-__pip install matplotlib_
+`pip install timeit`
+`pip install matplotlib`
