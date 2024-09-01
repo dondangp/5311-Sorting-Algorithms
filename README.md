@@ -1,5 +1,4 @@
 # 5311-Sorting-Algorithms
-DAA Hands-On 2 
 <br/>
 Selection, Insertion, and Bubble are highlighted in this repository. This repository has both code and benchmarks that can be ran on your computer.
 <br/>
