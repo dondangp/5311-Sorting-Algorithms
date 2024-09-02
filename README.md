@@ -3,6 +3,20 @@
 This repository highlights three classic sorting algorithms: **Selection Sort**, **Insertion Sort**, and **Bubble Sort**. It includes both the implementation code for these algorithms and benchmark scripts to measure their performance on different input sizes.
 
 ## Benchmark - Sorting Algorithms
+### Benchmark Environment
+
+- **Operating System**: macOS 14.4.1 (23E224)
+- **Processor/Chip**: Apple M2 (8-core CPU)
+- **Clock Speed**: Up to 3.49 GHz
+- **RAM**: 8 GB
+- **Storage**: 245.11 GB Macintosh HD
+- **Python Version**: 3.12.0
+- **Virtual Environment**: Yes (`venv`)
+- **Major Dependencies**: `timeit`, `matplotlib`
+- **Device Power Status**: Plugged in
+- **Background Processes**: Minimal activity, no significant CPU load during benchmarking.
+
+### Benchmark
 ![benchmark_sorting_algorithms](https://github.com/user-attachments/assets/662d7887-d098-4b2a-be29-265cb7778c3b)
 ## Selection Sort Correctness
 
