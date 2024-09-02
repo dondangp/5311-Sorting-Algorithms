@@ -1,4 +1,4 @@
-# 5311-Sorting-Algorithms
+# Sorting-Algorithms
 
 This repository highlights three classic sorting algorithms: **Selection Sort**, **Insertion Sort**, and **Bubble Sort**. It includes both the implementation code for these algorithms and benchmark scripts to measure their performance on different input sizes.
 
