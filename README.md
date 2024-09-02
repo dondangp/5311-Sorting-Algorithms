@@ -14,7 +14,7 @@ Selection Sort is an algorithm that sorts an array by repeatedly finding the min
 
 ### Proof by Induction
 
-We will prove the correctness of Selection Sort by demonstrating that the loop invariant holds at three crucial points: **Initialization**, **Maintenance**, and **Termination**.
+I will prove the correctness of Selection Sort by demonstrating that the loop invariant holds at three crucial points: **Initialization**, **Maintenance**, and **Termination**.
 
 #### 1. Initialization
 
