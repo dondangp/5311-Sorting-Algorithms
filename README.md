@@ -17,7 +17,7 @@ This repository highlights three classic sorting algorithms: **Selection Sort**,
 - **Background Processes**: Minimal activity, no significant CPU load during benchmarking.
 
 ### Benchmark
-![sorting_algorithms_benchmark](https://github.com/user-attachments/assets/3faa44e3-fe7f-41be-9cda-e2265546a21a)
+![sorting_algorithms_benchmark](https://github.com/user-attachments/assets/c0c0fd65-df7e-4882-90c8-a36d947611af)
 ## Selection Sort Correctness
 
 Selection Sort is an algorithm that sorts an array by repeatedly finding the minimum element from the unsorted portion of the array and swapping it with the first unsorted element. This process is repeated until the entire array is sorted. We can prove the correctness of Selection Sort using the concept of a **loop invariant**.
