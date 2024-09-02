@@ -56,7 +56,7 @@ By the principle of mathematical induction, the loop invariant holds for every i
 
 This proof demonstrates that Selection Sort is a correct sorting algorithm that will always produce a sorted array for any input.
 
-## **Setup**
+## **Environment Setup**
 
 ### 1. Install Python
 Ensure that Python 3.12.0 (or later) is installed on your machine. You can download it from the official [Python website](https://www.python.org/downloads/).
