@@ -4,6 +4,45 @@ This repository highlights three classic sorting algorithms: **Selection Sort**,
 
 ## Benchmark - Sorting Algorithms
 ![benchmark_sorting_algorithms](https://github.com/user-attachments/assets/662d7887-d098-4b2a-be29-265cb7778c3b)
+## Selection Sort Correctness
+
+## Selection Sort Correctness Proof
+
+Selection Sort is an algorithm that sorts an array by repeatedly finding the minimum element from the unsorted portion of the array and swapping it with the first unsorted element. This process is repeated until the entire array is sorted. We can prove the correctness of Selection Sort using the concept of a **loop invariant**.
+
+### Loop Invariant
+
+**Invariant**: At the start of each iteration of the outer loop (with index `i`), the subarray `array[0..i-1]` consists of the `i` smallest elements in the array, sorted in non-decreasing order, and the subarray `array[i..n-1]` contains the remaining unsorted elements.
+
+### Proof by Induction
+
+We will prove the correctness of Selection Sort by demonstrating that the loop invariant holds at three crucial points: **Initialization**, **Maintenance**, and **Termination**.
+
+#### 1. Initialization
+
+Before the first iteration of the loop (`i = 0`), the subarray `array[0..i-1]` is empty. An empty subarray trivially satisfies the loop invariant, as it contains zero elements that are correctly sorted.
+
+#### 2. Maintenance
+
+Assume that before the `i`-th iteration, the loop invariant holds: the subarray `array[0..i-1]` is sorted and contains the `i` smallest elements in the array.
+
+During the `i`-th iteration:
+- The algorithm scans the unsorted portion of the array `array[i..n-1]` to find the smallest element.
+- It swaps this smallest element with the element at `array[i]`, thereby extending the sorted subarray by one element.
+
+After this swap, the subarray `array[0..i]` now contains the `i+1` smallest elements of the entire array, sorted in non-decreasing order, which maintains the loop invariant.
+
+#### 3. Termination
+
+The loop terminates when `i = n-1`. At this point, the loop invariant guarantees that the subarray `array[0..n-2]` is sorted and contains the `n-1` smallest elements in the array. The final element, `array[n-1]`, is already the largest element and is in its correct position.
+
+Thus, upon termination, the entire array `array[0..n-1]` is sorted in non-decreasing order.
+
+### Conclusion
+
+By the principle of mathematical induction, the loop invariant holds for every iteration of the loop. Therefore, Selection Sort correctly sorts the array.
+
+This proof demonstrates that Selection Sort is a correct sorting algorithm that will always produce a sorted array for any input.
 
 ## **Setup**
 
