@@ -6,8 +6,6 @@ This repository highlights three classic sorting algorithms: **Selection Sort**,
 ![benchmark_sorting_algorithms](https://github.com/user-attachments/assets/662d7887-d098-4b2a-be29-265cb7778c3b)
 ## Selection Sort Correctness
 
-## Selection Sort Correctness Proof
-
 Selection Sort is an algorithm that sorts an array by repeatedly finding the minimum element from the unsorted portion of the array and swapping it with the first unsorted element. This process is repeated until the entire array is sorted. We can prove the correctness of Selection Sort using the concept of a **loop invariant**.
 
 ### Loop Invariant
