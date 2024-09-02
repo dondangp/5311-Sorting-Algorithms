@@ -21,11 +21,16 @@ def insertion_sort(arr):
         arr[j + 1] = key
 
 def bubble_sort(arr):
-    n = len(arr)
-    for i in range(n):
-        for j in range(0, n-i-1):
-            if arr[j] > arr[j+1]:
-                arr[j], arr[j+1] = arr[j+1], arr[j]
+    n = len(arr) - 1
+    is_sorted = False
+    while not is_sorted:
+        is_sorted = True
+        for i in range(n):
+            if arr[i] > arr[i + 1]:
+                arr[i], arr[i + 1] = arr[i + 1], arr[i]
+                is_sorted = False
+        n -= 1
+    return arr
 
 # Function to measure sorting time
 def benchmark_sort(sort_fn, arr):
@@ -61,7 +66,7 @@ plt.figure(figsize=(10, 6))
 plt.plot(input_sizes, selection_times, label='Selection Sort', marker='o')
 plt.plot(input_sizes, insertion_times, label='Insertion Sort', marker='o')
 plt.plot(input_sizes, bubble_times, label='Bubble Sort', marker='o')
-plt.xlabel('Input Size')
+plt.xlabel('Input Size (n)')
 plt.ylabel('Time (seconds)')
 plt.title('Benchmark: Selection Sort vs Insertion Sort vs Bubble Sort')
 plt.legend()
